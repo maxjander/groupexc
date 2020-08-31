@@ -1,0 +1,332 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility */
+
+button {
+  padding: 2rem 3rem;
+  background: #8FBC72;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(137, 168, 118);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+label {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+input,
+textarea {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+.boxjen
+{
+margin: 30px;
+height:1000px;
+width:1000px;
+border:2px solid black;
+background-image: url(https://www.worldofboardgames.com/product_images/1119-1-L.jpg);
+background-size: cover;
+padding: 0px;
+float: left;
+}
+
+.navbarjen
+{
+background-color: red;
+color: white;
+height: 40px;
+
+}
+
+.localnewsbox
+{
+
+border:2px solid black;
+margin: 30px;
+height:1000px;
+width:1000px;
+float: left;
+
+}
+
+.image
+{
+padding: 30px;
+}
+.textlocalnews
+{
+font-size: 20px;
+padding: 30px;
+
+}
+
+.newstitles
+{
+    background-color: rgba(43, 38, 38, 0.8);
+    color: white;
+    font-size: 40px;
+    height: 100px;
+    padding: 30px;
+    
+    
+    
+}
+.liststyling
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    list-style-type:none;
+}
+
+/*  Navigation */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  background-color: #333;
+}
+.navi {
+  background-color: #333;
+  /*
+  position: fixed;
+  top: 0;
+  width: 100%
+  */
+}
+
+.navi nav ul {
+  overflow: hidden;
+}
+
+.navi nav ul li a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navi nav ul li a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.navi .icon{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navi a:first-child {display: none;}
+    .navi a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .navi.responsive {position: relative;}
+    .navi.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navi.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
+
+/* Contact form section */
+#contact-form {
+  height: 90vh;
+  width: 60%;
+  /* background: linear-gradient(rgba(0, 0,0 , 0.3), transparent), 
+    url("./img/monopoly-contact-form.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-wrapper {
+  background: #333;
+  width: 60%;
+  color: #fff;
+  border-radius: 3rem;
+}
+
+.form-head {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid #ddd
+}
+
+.name-form,
+.email-form,
+.messege-form {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+}
+
+.messege-form {
+  padding-bottom: 5rem;
+}
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+  display: block;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 1.5rem;
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+
+.form-wrapper input {
+  padding: 1rem 2rem
+}
+
+
+#signIn-Form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.signIn{
+  font-family: 'Times New Roman', Times, serif;
+  background: #a19f9e;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.signIn label{
+  font-size: 1.2em ;
+}
+
+.signIn h2{
+  text-align: center;
+}
+
+.button2{
+  color: #4f4d4c;
+  padding: 0.1em;
+  position: relative;
+  left: 80px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.button2:hover{
+  color: #000;
+  pointer-events: auto;
+}
+
+.email input{
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.pw input{
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.sandra {
+	background-color: #f0f0f0;
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+#rubrik {
+	font-size: 50px;
+	background-color: red;
+	text-shadow: 2px 2px black;
+	color: white;
+	padding: 10px;
+	margin-bottom: 0;
+}
+.boxsan {
+	background-color: white;
+	border: 15px solid #f0f0f0;
+	padding: 10px;
+	box-shadow: inset 0 0 5px black;
+}
+.boxsan p {
+	font-size: 20px;
+}
+.sandra h4 {
+	border:5px solid red;
+	color: white;
+	margin: 0;
+	text-shadow: 2px 2px black;
+	background-color: red;
+	border-style: outset;
+	width: 300px;
+	font-size: 30px;
+}
+
+.content h4 {
+    border:5px solid red;
+	color: white;
+	margin: 0;
+	text-shadow: 2px 2px black;
+	background-color: red;
+	border-style: outset;
+	width: 300px;
+	font-size: 30px;
+}
+.content {
+	margin: 20px;
+}
+.content li {
+	font-size: 20px;
+}
+.content img {
+	width: 45%;
+	padding: 25px;
+}
+.tips {
+	margin: 20px;
+}
+.tips p {
+	font-size: 20px;
+}
