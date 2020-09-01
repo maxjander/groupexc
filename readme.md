@@ -12,6 +12,8 @@ mrautenberg @ github
 ### Max J: Navigation       
         Att göra: Fixa ett problem med att första li Item försvinner vid responsivitet
 
+        Skall fixa ett git repo för detta
+
 maxjander @ github
 
 ### Jenny: Nyhetsida
@@ -20,7 +22,7 @@ maxjander @ github
 jennymag @ github
 
 ### Sandra: Information
-        Att göra: 
+        Att göra:
 sandrapersson149 @ github
 
 ### Jesper: Inloggning
