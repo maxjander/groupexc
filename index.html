@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://kit.fontawesome.com/5bbf6a7a61.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
     <title>Spel</title>
 </head>
@@ -16,7 +19,7 @@
                 <li><a href="#Jesper">Logga in</a></li>
                 <li><a href="#Jenny">Nyheter</a></li>
                 <li><a href="#Sandra">Information</a></li>
-                <li><a href="#contact-form">Kontakta oss</a></li>
+                <li><a href="#contact">Kontakta oss</a></li>
                 <li><a href="javascript:void(0);" class="icon" onclick="navi()">
                     <i class="fa fa-bars"></i>
                   </a></li>
@@ -152,28 +155,60 @@
     
     
     <!-- Contact form section  -->
-    <section id="contact-form">
-        <div class="form-wrapper">
-            <header class="form-head">
-                <h2>Kontakta oss</h2>
-            </header>
-            <form action="https://formspree.io/mrgywyqy" method="POST">
-                <div class="name-form">
-                    <label for="name">Namn</label>
-                    <input type="text" name="text" required />
-                </div>
-                <div class="email-form">
-                    <label for="email">E-post</label>
-                    <input type="email" name="_replyto" required />
-                </div>
-                <div class="messege-form">
-                    <label for="message">Meddelande</label>
-                    <textarea name="messege" id="messege" rows="10" cols="30"></textarea>
-                </div>
-                <button type="submit" value="Send">Skicka</button>
-            </form>
+    <section id="contact">
+        <div class="contact-wrapper">
+          <h2>Kontakta oss</h2>
+          <form action="https://formspree.io/mrgywyqy" method="POST">
+            <div class="form-name">
+              <label for="name"><i class="fas fa-user-ninja fa-2x"></i></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Namn"
+                required
+              />
+            </div>
+  
+            <div class="form-email">
+              <label for="email"
+                ><i class="fas fa-envelope-square fa-2x"></i
+              ></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Epost"
+                required
+              />
+            </div>
+  
+            <div class="form-phone">
+              <label for="phone"> <i class="fas fa-phone-alt fa-2x"></i></label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Telefonnummer"
+                required
+              />
+            </div>
+  
+            <div class="form-messege">
+              <label for="messege"> <i class="fas fa-comments fa-2x"></i></label>
+              <textarea
+                name="messege"
+                id="messege"
+                cols="30"
+                rows="10"
+                placeholder="Vänligen lämna ett meddelande..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Skicka</button>
+          </form>
         </div>
-    </section>
+      </section>
 
 </body>
 </html> 

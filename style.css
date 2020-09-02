@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
 /* CSS RESET */
 * {
   margin: 0;
@@ -164,63 +167,95 @@ nav ul {
 
 
 /* Contact form section */
-#contact-form {
-  height: 90vh;
-  width: 60%;
-  /* background: linear-gradient(rgba(0, 0,0 , 0.3), transparent), 
-    url("./img/monopoly-contact-form.jpg"); 
-  background-size: cover;
+#contact {
+  min-height: 80vh;
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url('./img/contact-bg.jpg');
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-.form-wrapper {
-  background: #333;
-  width: 60%;
-  color: #fff;
-  border-radius: 3rem;
-}
-
-.form-head {
+  flex-direction: column;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 0.5px solid #ddd
 }
 
-.name-form,
-.email-form,
-.messege-form {
-  display: block;
+.contact-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+  z-index: 1;
+  background-color: #fafafa;
   padding: 2rem;
+  border-radius: 1rem;
 }
 
-.messege-form {
-  padding-bottom: 5rem;
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
-.form-wrapper label {
-  margin: 0rem 3rem;
-  display: block;
+input,
+textarea {
+  font-size: 1.5rem;
+  margin: 1rem;
+  width: 70%;
 }
 
-.form-wrapper button {
+label,
+label::placeholder {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.form-name,
+.form-phone,
+.form-email,
+.form-messege {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+i {
+  margin-right: 1.5rem;
+}
+
+button {
+  cursor: pointer;
   width: 100%;
-  padding: 1.5rem;
-  border-bottom-right-radius: 3rem;
-  border-bottom-left-radius: 3rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+  background: #24cb73;
+  border-radius: 0.5rem;
+  letter-spacing: 0.1rem;
+  transition: background 0.5s ease-in-out;
 }
 
-.form-wrapper input {
-  padding: 1rem 2rem
+button:hover {
+  background-color: #169652;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 800px) {
+  .contact-wrapper {
+    min-width: 80%;
+  }
+
+  i {
+    margin-right: 0.5rem;
+  }
 }
 
 
+/* Sign in form */
 #signIn-Form{
   display: flex;
   align-items: center;
