@@ -41,6 +41,87 @@ h2 {
   font-size: 2.4rem;
 }
 
+/*Jenny newsfeed*/
+
+
+#jenny {
+  background-image: url(newsfeedbackg.png);
+  background-repeat: no-repeat; 
+  border: 1px solid black;
+}
+
+.h1jenny
+{
+  font-size: 40px;
+  color: white;
+  font-family: 'Open Sans Condensed';
+  border: 0px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.picturenews
+{
+  background-color: rgba(216, 241, 248, 0.7); 
+  padding: 0px;
+  border: 0.5px dotted pink;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 3px 3px 10px grey;
+  border-radius: 10px;
+ }
+
+ .imgjenny {
+   border-radius: 20px;
+   float: left;
+   width: 30%;
+   margin-left: 2.5%;
+   margin-top: 30px; 
+   box-shadow: 3px 3px 6px grey;
+   border: 0.5px dotted pink;
+ }
+
+.jennyp
+{
+padding-top: 00px;
+text-align: center;
+}
+
+.jennyul
+{
+  list-style-type: none;
+  font-family: Bahnschrift Light;
+}
+
+.localnewsbox{
+  margin-top: 400px;
+  margin-left: 50px;
+  font-size: 15px;
+  width: 400px;
+  color: blue;
+}
+
+.localnewsdiv {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 15px;
+  border: 0.5px dotted pink;
+  box-shadow: 1px 1px 3px grey;
+  width: 400px;
+  height: 145px;
+  padding: 0px;
+  background-color: white;
+
+}
+
+.imglocal
+{
+  width: 100px;
+  float: left;
+  
+}
+
+/*
 .boxjen
 {
 margin: 30px;
@@ -101,6 +182,7 @@ padding: 30px;
     width: 60em;
     list-style-type:none;
 }
+*/
 
 /*  Navigation */
 nav ul {
