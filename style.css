@@ -45,16 +45,16 @@ h2 {
 
 
 #jenny {
-  background-image: url(newsfeedbackg.png);
+  background-image: url(img/newsfeedbackg.png);
   background-repeat: no-repeat; 
   border: 1px solid black;
 }
 
 .h1jenny
 {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  font-family: 'Open Sans Condensed';
+  font-family: Bahnschrift Light:
   border: 0px solid black;
   margin: 20px;
   padding: 10px;
@@ -94,20 +94,23 @@ text-align: center;
 }
 
 .localnewsbox{
-  margin-top: 400px;
+  margin-top: 600px;
   margin-left: 50px;
-  font-size: 15px;
-  width: 400px;
-  color: blue;
+  padding: 4px;
+  font-size: 20px;
+  width: 550px;
+  height: 30px;
+  color: white;
+    background-color: dodgerblue;
 }
 
 .localnewsdiv {
   margin-top: 20px;
   margin-left: 50px;
-  font-size: 15px;
+  font-size: 20px;
   border: 0.5px dotted pink;
   box-shadow: 1px 1px 3px grey;
-  width: 400px;
+  width: 550px;
   height: 145px;
   padding: 0px;
   background-color: white;
@@ -116,9 +119,29 @@ text-align: center;
 
 .imglocal
 {
-  width: 100px;
+  width: 130px;
+  height: 144px;
   float: left;
+  margin-right: 20px;
   
+}
+
+.localnewscontent
+{ padding-left: 10px;
+
+}
+
+.tidsrubrik
+{
+  font-size: 13px;
+  color: blue;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  }
+.likebtn-wrapper
+{
+   padding-top: 10px;
+   
 }
 
 /*
