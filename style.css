@@ -54,7 +54,7 @@ h2 {
 {
   font-size: 30px;
   color: white;
-  font-family: Bahnschrift Light:
+  font-family: Bahnschrift Light;
   border: 0px solid black;
   margin: 20px;
   padding: 10px;
@@ -372,6 +372,12 @@ button:active {
   overflow: auto;
 }
 
+.img{
+  margin-top: 0;
+  width: 24px;
+  position: absolute;
+}
+
 .signIn{
   font-family: 'Roboto', sans-serif;
   background: #a19f9e;
@@ -383,16 +389,21 @@ button:active {
 
 .signIn label{
   font-size: 1.2rem ;
+  display: inline;
+  margin: 0 auto;
+  margin-left: 30px;
 }
 
 .email input{
   width: 80%;
   font-size: 18px;
+  margin-left: 30px;
 }
 
 .pw input{
   width: 80%;
   font-size: 18px;
+  margin-left: 30px;
 }
 
 .signIn h2{
