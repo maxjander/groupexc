@@ -7,23 +7,6 @@
 
 /* Utility */
 
-button {
-  padding: 2rem 3rem;
-  background: #8FBC72;
-  border: none;
-  color: #fff;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: rgb(137, 168, 118);
-}
-
-button:active {
-  transform: scale(0.98);
-}
-
 label {
   font-size: 1.2rem;
   padding-bottom: 1.2rem;
@@ -32,10 +15,6 @@ label {
 input,
 textarea {
   font-size: 1.2rem;
-}
-
-h2 {
-  font-size: 2.4rem;
 }
 
 /*Jenny newsfeed*/
@@ -120,12 +99,10 @@ text-align: center;
   height: 144px;
   float: left;
   margin-right: 20px;
-
 }
 
 .localnewscontent
 { padding-left: 10px;
-
 }
 
 .tidsrubrik
@@ -138,7 +115,6 @@ text-align: center;
 .likebtn-wrapper
 {
    padding-top: 10px;
-
 }
 
 
@@ -149,6 +125,7 @@ nav ul {
   padding: 0;
   background-color: #333;
 }
+
 .navi {
   background-color: #333;
   /*
