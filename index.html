@@ -21,9 +21,9 @@
             <nav>
                 <ul>
                     <li><a href="./">Monopol</a></li>
-                    <li><a href="#Jesper">Logga in</a></li>
+                    <li><a href="#jesper">Logga in</a></li>
                     <li><a href="#jenny">Nyheter</a></li>
-                    <li><a href="#Sandra">Information</a></li>
+                    <li><a href="#sandra">Information</a></li>
                     <li><a href="#contact">Kontakta oss</a></li>
                     <li><a href="javascript:void(0);" class="icon" onclick="navi()">
                         <i class="fa fa-bars"></i>
@@ -33,10 +33,10 @@
             </nav>
         </div>
   </header>
-    <div id='Jesper'>
+    <div id='jesper'>
         <section id="signIn-Form">
             <div class="signIn">
-                <form action="" method="POST">
+                <form method="POST">
                   <h2>Inloggning</h2>
                     <div class="email">
                         <img class="img" src="https://img.icons8.com/ios-filled/50/000000/login-rounded-right.png" alt="login icon"/>
@@ -46,7 +46,7 @@
                     <div class="pw">
                         <img class="img" src="https://img.icons8.com/fluent-systems-filled/24/000000/password-window.png" alt="password icon"/>
                         <label for="pw">Lösenord:</label>
-                        <input type="password" name="pw" placeholder="Skriv lösenord..." minlength="8" required>
+                        <input id="pw" type="password" name="pw" placeholder="Skriv lösenord..." minlength="8" required>
                     </div>
                     <div>
                         <input class="submit" type="submit" value="submit">
@@ -61,7 +61,7 @@
         <br>
     </div>
 
-    <div id="Sandra">
+    <div id="sandra">
       <section class="infodel">
           <h2 id="rubrik">Lär dig mer om Monopol</h2>
           <div class="boxsan">
@@ -110,9 +110,9 @@
 
      <div class="picturenews">
 
-      <img src="img/kreditkort.jpg" class="imgjenny">
-      <img src="img/monopolwow.jpg" class="imgjenny">
-      <img src="img/1983.jpg" class="imgjenny">
+      <img src="img/kreditkort.jpg" class="imgjenny" alt="ett kreditkort">
+      <img src="img/monopolwow.jpg" class="imgjenny" alt="ett monopol">
+      <img src="img/1983.jpg" class="imgjenny" alt="en gammal bild">
       <div style="clear: both;">
 
       <ul class="jennyul">
@@ -124,23 +124,23 @@
         <li>
           <div class="localnewsdiv">
 
-              <p><img class="imglocal" src="img/globe.jpg"><p class="tidsrubrik">Publicerad 2 timmar sedan</p>Monopol kommer till 10 nya länder redan nästa år<br></p><span class="likebtn-wrapper" data-theme="custom" data-btn_size="19" data-identifier="item_1"></span>
+              <p><img class="imglocal" src="img/globe.jpg" alt="ett jordklot"></p><p class="tidsrubrik">Publicerad 2 timmar sedan</p><p>Monopol kommer till 10 nya länder redan nästa år<br></p>
 
           </div>
         </li>
         <li>
           <div class="localnewsdiv">
-            <p><img class="imglocal" src="img/streets.jpg"><p class="tidsrubrik">Publicerad 8 dagar sedan</p>Vi är glada att informera om att det snart kommer nya gator i original-spelet</b></p><span class="likebtn-wrapper" data-theme="custom" data-btn_size="19" data-identifier="item_2"></span>
+            <p><img class="imglocal" src="img/streets.jpg" alt="en gata"><p class="tidsrubrik">Publicerad 8 dagar sedan</p><p>Vi är glada att informera om att det snart kommer nya gator i original-spelet</p>
           </div>
         </li>
         <li>
           <div class="localnewsdiv">
-            <p><img class="imglocal" src="img/arg.jpg"><p class="tidsrubrik">Publicerad 3 veckor sedan</p>Nya spelregler upprör spelare, anses inte vara riktigt genomtänkt</p><span class="likebtn-wrapper" data-theme="custom" data-btn_size="19" data-identifier="item_3"></span>
+            <p><img class="imglocal" src="img/arg.jpg" alt="en arg person"><p class="tidsrubrik">Publicerad 3 veckor sedan</p><p>Nya spelregler upprör spelare, anses inte vara riktigt genomtänkt</p>
           </div>
         </li>
         <li>
           <div class="localnewsdiv">
-            <p><img class="imglocal" src="img/anställda.jpg"><p class="tidsrubrik">Publicerad 1 månad sedan</p>Våra anställda trivs bäst på sin arbetsplats, enligt en undersökning</p>
+            <p><img class="imglocal" src="img/anställda.jpg" alt="flera anställda"><p class="tidsrubrik">Publicerad 1 månad sedan</p><p>Våra anställda trivs bäst på sin arbetsplats, enligt en undersökning</p>
           </div>
         </li>
       </ul>
@@ -159,6 +159,7 @@
     <br>
     <br>
     <br>
+    </div>
   </section>
 
 
