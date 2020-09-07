@@ -144,68 +144,6 @@ text-align: center;
    
 }
 
-/*
-.boxjen
-{
-margin: 30px;
-height:1000px;
-width:1000px;
-border:2px solid black;
-background-image: url(https://www.worldofboardgames.com/product_images/1119-1-L.jpg);
-background-size: cover;
-padding: 0px;
-float: left;
-}
-
-.navbarjen
-{
-background-color: red;
-color: white;
-height: 40px;
-
-}
-
-.localnewsbox
-{
-
-border:2px solid black;
-margin: 30px;
-height:1000px;
-width:1000px;
-float: left;
-
-}
-
-.image
-{
-padding: 30px;
-}
-.textlocalnews
-{
-font-size: 20px;
-padding: 30px;
-
-}
-
-.newstitles
-{
-    background-color: rgba(43, 38, 38, 0.8);
-    color: white;
-    font-size: 40px;
-    height: 100px;
-    padding: 30px;
-    
-    
-    
-}
-.liststyling
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60em;
-    list-style-type:none;
-}
-*/
 
 /*  Navigation */
 nav ul {
